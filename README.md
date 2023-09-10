@@ -1,6 +1,10 @@
 # forntend-freak-css-
 css 1 video
-<html part/>
+
+<h1><html part/></h1>
+
+
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,11 +32,28 @@ css 1 video
    <p id="circle"></p> -->
 
     <a href="https:google.com">Go to google</a>
+    <a href="https:google.com">Go to google</a>
+    <a href="https:google.com">Go to google</a>
+    <a href="https:google.com">Go to google</a>
     <p>Go to google</p>
+    <div class="container">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod porro inventore dolorem libero, nostrum aspernatur quo et modi quasi eveniet culpa ad recusandae error aperiam omnis in ex quaerat doloremque, iure consequuntur asperiores necessitatibus.
+        <p id="container-para">ALorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, illo.</p>
+    </div>
 </body>
 </html>
 
+
+
+
+
+
 <h1>css part</h1>
+
+
+
+
+
+
 /* universal selector // select all the html element*/
 * {
   padding: 0;
@@ -154,3 +175,27 @@ a{
    }
 
    /* Display property */
+/* Block elements : take entire width and start from next line */
+   /* inline element : take necessary space, and start from same line */
+
+   /* Position property */
+   .container{
+    background: yellow;
+    margin: 10px;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+
+   }
+   #container-para{
+        /* static:default position */
+      /* relative: it change the relative to actual position */
+      /* absolute:it is relative to its parent positioned element */
+      /* in fixed things postion is fixed  you can scroll but it is not move */
+    position:static;
+    top: 10px;
+    right: -30px;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+   }
